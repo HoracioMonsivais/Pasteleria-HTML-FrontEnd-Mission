@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria LaunchX</title>
+</head>
+<body>
+    <h1>Haz tu pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Cual es tu nombre?</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre"><br><br>
+        <label for="Teléfono">Teléfono</label>
+        <input type="text" name="Teléfono" id="Teléfono" placeholder="Teléfono"><br><br>
+        <label for="Correo electrónico">Correo electrónico</label>
+        <input type="text" name="Correo electrónico" id="Correo electrónico" placeholder="correo@ejemplo.com"><br><br>
+        <label for="Descripción">Descripción</label>
+        <input type="Descripción" name="Descripción" id="Descripción" placeholder="Descripción"><br><br>
+
+        <p>Selecciona el pastel que deseas</p>
+        <input type="radio" name="Pastel de Manzana" id="Pasteles" value="Manzana">
+        <label for="Manzana">Pastel de Manzana</label><br>
+        <input type="radio" name="Pastel de Zanahoria" id="Pasteles" value="Zanahoria">
+        <label for="Zanahoria">Pastel de Zanahoria</label><br>
+        <input type="radio" name="Pastel de Chocolate" id="Pasteles" value="Chocolate">
+        <label for="Chocolate">Pastel de Chocolate</label><br>
+        <input type="radio" name="Pastel de Limón" id="Pasteles" value="Limón">
+        <label for="Limón">Pastel de Limón</label><br>
+
+        <p>¿Con que tipo de decoración?</p>
+        <select name="Adorno" id="Adorno">
+            <option value="Sin adornos">Sin adornos</option>
+            <option value="Chispas de chocolate">Chispas de chocolate</option>
+            <option value="Chantilli">Chantilli</option>
+            <option value="Merengue">Merengue</option>
+            <option value="Figuras comestibles">Figuras comestibles</option>
+        </select>
+        
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body> 
